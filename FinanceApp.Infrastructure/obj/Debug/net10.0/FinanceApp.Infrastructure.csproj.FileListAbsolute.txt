@@ -1,0 +1,15 @@
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\bin\Debug\net10.0\FinanceApp.Infrastructure.deps.json
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\bin\Debug\net10.0\FinanceApp.Infrastructure.dll
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\bin\Debug\net10.0\FinanceApp.Infrastructure.pdb
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\bin\Debug\net10.0\FinanceApp.Domain.dll
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\bin\Debug\net10.0\FinanceApp.Domain.pdb
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\obj\Debug\net10.0\FinanceApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\obj\Debug\net10.0\FinanceApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\obj\Debug\net10.0\FinanceApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\obj\Debug\net10.0\FinanceApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\obj\Debug\net10.0\FinanceApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\obj\Debug\net10.0\FinanceA.F8861955.Up2Date
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\obj\Debug\net10.0\FinanceApp.Infrastructure.dll
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\obj\Debug\net10.0\refint\FinanceApp.Infrastructure.dll
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\obj\Debug\net10.0\FinanceApp.Infrastructure.pdb
+C:\Users\Vinibatatas\RiderProjects\FinanceApp\FinanceApp.Infrastructure\obj\Debug\net10.0\ref\FinanceApp.Infrastructure.dll
