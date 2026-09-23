@@ -5,5 +5,5 @@ namespace FinanceApp.Domain.Repositories;
 public interface ICreditCardRepository
 {
     Task AddAsync (CreditCard creditCard);
-    Task <IEnumerable<CreditCard>> GetByUserIdAsync (Guid userId);
+    Task<IEnumerable<CreditCard?>> GetByUserIdAsync(Guid userId);
 }

@@ -1,8 +1,9 @@
-﻿using FinanceApp.Domain.Repositories;
+﻿using FinanceApp.Aplication.UseCases.Interfaces;
+using FinanceApp.Domain.Repositories;
 
 namespace FinanceApp.Aplication.UseCases.GetMonthlySummary;
 
-public class GetMonthlySummaryUseCase
+public class GetMonthlySummaryUseCase : IGetMonthlySummaryUseCase
 {
     private readonly IFinancialProfileRepository _profileRepository;
     private readonly IPurchaseRepository _purchaseRepository;
@@ -15,11 +16,13 @@ public class GetMonthlySummaryUseCase
 
     public async Task<MonthlySummaryResult> ExecuteAsync(Guid userId, int year, int month)
     {
-        var profile = await _profileRepository.GetByUserIdAsync(userId);
-        var salary = profile?.Salary ?? 1;
+        var profileTask = _profileRepository.GetByUserIdAsync(userId);
+        var purchasesTask = _purchaseRepository.GetByUserIdAndMonthAsync(userId, year, month);
 
-        var purchases = await _purchaseRepository.GetByUserIdAndMonthAsync(userId, year, month);
-        var totalExpenses = purchases.Sum(p => p.Amount);
+        await Task.WhenAll(profileTask, purchasesTask);
+
+        var salary = profileTask.Result?.Salary ?? 1;
+        var totalExpenses = purchasesTask.Result.Sum(p => p.Amount);
         var balance = salary - totalExpenses;
 
         return new MonthlySummaryResult(salary, totalExpenses, balance);

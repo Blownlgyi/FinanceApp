@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Aplication\\FinanceApp.Aplication.csproj": {}
+    "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Aplication\\FinanceApp.Aplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Aplication\\FinanceApp.Aplication.csproj": {
+    "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Aplication\\FinanceApp.Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Aplication\\FinanceApp.Aplication.csproj",
+        "projectUniqueName": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Aplication\\FinanceApp.Aplication.csproj",
         "projectName": "FinanceApp.Aplication",
-        "projectPath": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Aplication\\FinanceApp.Aplication.csproj",
+        "projectPath": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Aplication\\FinanceApp.Aplication.csproj",
         "packagesPath": "C:\\Users\\Vinibatatas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Aplication\\obj\\",
+        "outputPath": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vinibatatas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -27,8 +27,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj"
+              "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj"
               }
             }
           }
@@ -343,14 +343,14 @@
         }
       }
     },
-    "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj": {
+    "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj",
         "projectName": "FinanceApp.Domain",
-        "projectPath": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj",
+        "projectPath": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Vinibatatas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vinibatatas\\AppData\\Roaming\\NuGet\\NuGet.Config"

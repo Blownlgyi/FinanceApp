@@ -1,8 +1,10 @@
 ﻿using FinanceApp.Domain.Repositories;
 using FinanceApp.Aplication.UseCases.GetPurchases;
+using FinanceApp.Aplication.UseCases.Interfaces;
+
 namespace FinanceApp.Aplication.UseCases.GetInvoice;
 
-public class GetInvoiceUseCase
+public class GetInvoiceUseCase: IGetInvoiceUseCase
 {
     private readonly IPurchaseRepository _purchaseRepository;
 
@@ -11,7 +13,7 @@ public class GetInvoiceUseCase
         _purchaseRepository = purchaseRepository;
     }
 
-    public async Task<InvoiceResult> ExecuteAsync(Guid creditCardId, int year, int month)
+    public async Task<InvoiceResult?> ExecuteAsync(Guid creditCardId, int year, int month)
     {
         var purchases = await _purchaseRepository.GetInvoiceAsync(creditCardId, year, month);
         var totalAmount = purchases.Sum(p => p.Amount);

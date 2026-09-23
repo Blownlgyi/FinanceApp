@@ -20,7 +20,7 @@ public class CreditCardRepository : ICreditCardRepository
         await _context.SaveChangesAsync();
     }
 
-    public async Task<IEnumerable<CreditCard>> GetByUserIdAsync(Guid userId)
+    public async Task<IEnumerable<CreditCard?>> GetByUserIdAsync(Guid userId)
     {
         return await  _context.CreditCards.AsNoTracking().Where(c => c.UserId == userId).ToListAsync();
     }

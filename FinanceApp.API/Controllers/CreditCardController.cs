@@ -12,7 +12,7 @@ public class CreditCardController : ControllerBase
 {
     [HttpPost]
     [Consumes("application/json")]
-    public async Task<ActionResult<CreditCard>> Register([FromBody] RegisterCreditCardCommand command,[FromServices] RegisterCreditCardUseCase useCase)
+    public async Task<ActionResult<CreditCard>> Register([FromBody] RegisterCreditCardRequest command,[FromServices] RegisterCreditCardUseCase useCase)
     {
         await useCase.ExecuteAsync(command);
         return StatusCode(201);

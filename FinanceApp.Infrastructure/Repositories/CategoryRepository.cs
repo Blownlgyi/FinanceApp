@@ -21,7 +21,7 @@ public class CategoryRepository : ICategoryRepository
         await _context.SaveChangesAsync();
     }
 
-    public async Task<IEnumerable<Category>> GetByUserIdAsync(Guid userId)
+    public async Task<IEnumerable<Category?>> GetByUserIdAsync(Guid userId)
     {
         return await _context.Categories.AsNoTracking()
             .Where(c => c.UserId == userId)

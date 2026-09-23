@@ -2,4 +2,4 @@
 
 namespace FinanceApp.Aplication.UseCases.CreateCategory;
 
-public record CreateCategoryCommand(Guid UserId, string Name);
+public record CreateCategoryRequest(Guid UserId, string Name);

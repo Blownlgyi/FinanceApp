@@ -259,11 +259,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.API\\FinanceApp.API.csproj",
+      "projectUniqueName": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.API\\FinanceApp.API.csproj",
       "projectName": "FinanceApp.API",
-      "projectPath": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.API\\FinanceApp.API.csproj",
+      "projectPath": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.API\\FinanceApp.API.csproj",
       "packagesPath": "C:\\Users\\Vinibatatas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.API\\obj\\",
+      "outputPath": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vinibatatas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -279,11 +279,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Aplication\\FinanceApp.Aplication.csproj": {
-              "projectPath": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Aplication\\FinanceApp.Aplication.csproj"
+            "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Aplication\\FinanceApp.Aplication.csproj": {
+              "projectPath": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Aplication\\FinanceApp.Aplication.csproj"
             },
-            "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Infrastructure\\FinanceApp.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Infrastructure\\FinanceApp.Infrastructure.csproj"
+            "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Infrastructure\\FinanceApp.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Infrastructure\\FinanceApp.Infrastructure.csproj"
             }
           }
         }

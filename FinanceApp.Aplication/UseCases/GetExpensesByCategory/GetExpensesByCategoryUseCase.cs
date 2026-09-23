@@ -13,10 +13,15 @@ public class GetExpensesByCategoryUseCase
         _categoryRepository = categoryRepository;
     }
 
-    public async Task<IEnumerable<CategoryExpenseResult>> ExecuteAsync(Guid userId, int year, int month)
+    public async Task<IEnumerable<CategoryExpenseResult?>> ExecuteAsync(Guid userId, int year, int month)
     {
-        var purchases = await _purchaseRepository.GetByUserIdAndMonthAsync(userId, year, month);
-        var categories = await _categoryRepository.GetByUserIdAsync(userId);
+        var purchasesTask = _purchaseRepository.GetByUserIdAndMonthAsync(userId, year, month);
+        var categoriesTask = _categoryRepository.GetByUserIdAsync(userId);
+
+        await Task.WhenAll(purchasesTask, categoriesTask);
+
+        var purchases = purchasesTask.Result;
+        var categories = categoriesTask.Result;
 
         var result = purchases
             .GroupBy(p => p.CategoryId)
@@ -25,6 +30,7 @@ public class GetExpensesByCategoryUseCase
                     CategoryName: categories.FirstOrDefault(c => c.Id == group.Key)?.Name ?? "Categoria Removida",
                     TotalAmount: group.Sum(p => p.Amount)
                 )).OrderByDescending(r => r.TotalAmount);
+
         return result;
     }
 }

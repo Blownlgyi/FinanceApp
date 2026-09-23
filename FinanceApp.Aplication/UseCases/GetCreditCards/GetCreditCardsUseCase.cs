@@ -11,7 +11,7 @@ public class GetCreditCardsUseCase
         _repository = repository;
     }
 
-    public async Task<IEnumerable<CreditCardResponse>> ExecuteAsync(Guid userId)
+    public async Task<IEnumerable<CreditCardResponse?>> ExecuteAsync(Guid userId)
     {
         var cards = await _repository.GetByUserIdAsync(userId);
         return cards.Select(c => new CreditCardResponse(c.Id, c.Name));

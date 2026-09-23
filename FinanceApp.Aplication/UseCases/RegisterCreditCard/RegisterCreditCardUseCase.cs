@@ -12,7 +12,7 @@ public class RegisterCreditCardUseCase
         _repository = repository;
     }
 
-    public async Task ExecuteAsync(RegisterCreditCardCommand command)
+    public async Task ExecuteAsync(RegisterCreditCardRequest command)
     {
         var creditCard = new CreditCard(command.UserId, command.Name);
         await _repository.AddAsync(creditCard);

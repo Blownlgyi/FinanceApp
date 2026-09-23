@@ -585,11 +585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj",
       "projectName": "FinanceApp.Domain",
-      "projectPath": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj",
+      "projectPath": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Domain\\FinanceApp.Domain.csproj",
       "packagesPath": "C:\\Users\\Vinibatatas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vinibatatas\\RiderProjects\\FinanceApp\\FinanceApp.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vinibatatas\\AppData\\Roaming\\NuGet\\NuGet.Config"

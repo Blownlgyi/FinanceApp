@@ -12,10 +12,10 @@ public class CategoryController : ControllerBase
     [HttpPost]
     [Consumes("application/json")]
     public async Task<IActionResult> Create(
-        [FromBody] CreateCategoryCommand command,
+        [FromBody] CreateCategoryRequest request,
         [FromServices] CreateCategoryUseCase useCase)
     {
-        await useCase.ExecuteAsync(command);
+        await useCase.ExecuteAsync(request);
         return Ok();
     }
 

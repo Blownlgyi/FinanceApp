@@ -11,11 +11,11 @@ public class FinanceController : ControllerBase
     [HttpPost("salary")]
     [Consumes("application/json")]
     public async Task<IActionResult> SetSalary(
-        [FromBody] SetSalaryCommand command,
+        [FromBody] SetSalaryResquest resquest,
         [FromServices] SetSalaryUseCase useCase
     )
     {
-        await useCase.ExecuteAsync(command);
+        await useCase.ExecuteAsync(resquest);
         return Ok();
     }
 

@@ -1,9 +1,10 @@
-﻿using FinanceApp.Domain.Entities;
+﻿using FinanceApp.Aplication.UseCases.Interfaces;
+using FinanceApp.Domain.Entities;
 using FinanceApp.Domain.Repositories;
 
 namespace FinanceApp.Aplication.UseCases.RegisterPurchase;
 
-public class RegisterPurchaseUseCase
+public class RegisterPurchaseUseCase : IRegisterPurchaseUse
 {
     private readonly IPurchaseRepository _repository;
     public RegisterPurchaseUseCase(IPurchaseRepository repository)
@@ -11,26 +12,19 @@ public class RegisterPurchaseUseCase
         _repository = repository;
     }
 
-    public async Task ExecuteAsync(RegisterPurchaseRequest command)
+    public async Task ExecuteAsync(RegisterPurchaseRequest request)
     {
-        try
-        {
+       
             var purchase = new Purchase(
-            command.Description, 
-            command.Amount, 
-            command.CategoryId, 
-            command.PurchaserId,
-            command.CreditCardId
+            request.Description, 
+            request.Amount, 
+            request.CategoryId, 
+            request.PurchaserId,
+            request.CreditCardId
                                          );
             await _repository.AddAsync(purchase);
         
-
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            throw;
-        }
+        
 
     }
 }

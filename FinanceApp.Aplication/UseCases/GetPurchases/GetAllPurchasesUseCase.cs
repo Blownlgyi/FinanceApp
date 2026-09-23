@@ -1,8 +1,9 @@
-﻿using FinanceApp.Domain.Repositories;
+﻿using FinanceApp.Aplication.UseCases.Interfaces;
+using FinanceApp.Domain.Repositories;
 
 namespace FinanceApp.Aplication.UseCases.GetPurchases;
 
-public class GetAllPurchasesUseCase
+public class GetAllPurchasesUseCase : IGetAllPurchasesUseCase
 {
     private readonly IPurchaseRepository _repository;
 
