@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "GTMKwGukI7w=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vinibatatas\\Pictures\\FinanceApp\\FinanceApp.API\\FinanceApp.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vinibatatas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\Vinibatatas\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.8\\microsoft.entityframeworkcore.10.0.8.nupkg.sha512",
+    "C:\\Users\\Vinibatatas\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.8\\microsoft.entityframeworkcore.abstractions.10.0.8.nupkg.sha512",
+    "C:\\Users\\Vinibatatas\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.8\\microsoft.entityframeworkcore.analyzers.10.0.8.nupkg.sha512",
+    "C:\\Users\\Vinibatatas\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\10.0.8\\microsoft.entityframeworkcore.inmemory.10.0.8.nupkg.sha512",
+    "C:\\Users\\Vinibatatas\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
